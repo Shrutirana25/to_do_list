@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+        <link rel="stylesheet" href="todo.css">
+    </head> 
+
+    <body>
+        <div class="container">
+            <div class="list">
+                <h1>My To-Do List <i class="fa-solid fa-list-check"></i></h1>
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Add your task">
+                    <button onclick="addTask()">ADD</button>
+                </div>
+                <ul id="list-container">
+                    <!-- <li class="checked">task 1</li>
+                    <li>task 2</li>
+                    <li>task 3</li>
+                    <li>task 4</li>
+                    <li>task 5</li> -->
+                </ul>
+            </div>
+        </div>
+        <script src="todo.js"></script>
+    </body>
+</html>
